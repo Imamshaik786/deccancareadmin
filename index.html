@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>admin</title>
+</head>
+
+<body>
+    <nav class="background navbar">
+
+
+        <div class="right-nav v-class-res">
+            
+            <button class="btn" id="Mystaff">VIEW STAFF</button>
+            <div id="mystaff" style="display: none;">
+                <label for="">DR YK MISHRA=> CARDIO-SURGEON</label><br><br>
+                <label for="">DR KAUSHAL IPILLI=> NEURO-SURGEON </label><br><br>
+                <label for="">DR NIHA FATHIMA=>ENT-SURGEON</label><br><br>
+                <label for="">DR YASASWINI HEMESWARA RAJU=>GENRAL-SURGEON </label><br><br>
+                <label for="">MS SANA KAHN=>RECEPTIANIST</label><br><br>
+                <label for="">MS GAYATHRI=>SENIOR NURSE(F)</label><br><br>
+                <label for="">MR KHALEEL=>SENIOR NURSE(M)</label><br><br>
+                <label for="">MS SHAZEEYA=>SENIOR LAB TECHNICIAN</label><br><br>
+                <button id="stf" type="sbmit">VIEWD</button>
+
+            </div>
+            <button class="btn" id="Myptnt">VIEW PATIENTS</button>
+            <div id="myptnt" style="display: none;">
+                <label for=""> PT NAME  =>GENDER =>AGE => ID =>SURGERY FOR</label><br><br>
+                <label for="">MR SATHISH => M    =>32 => 123 => CARDIO-SURGERY</label><br><br>
+                <label for="">MS SAMEERA => F    =>25 => 331 =>NEURO-SURGERY </label><br><br>
+                <label for="">MS SHABANA => F    =>9 => 111 =>GENERAL-SURGERY </label><br><br>
+                <label for="">MR RAHMAN  => M    =>35 => 232 =>NEURO-SURGERY </label><br><br>
+                <label for="">MS SHARADHA=> F    =>52 => 351 =>NEURO-SURGERY </label><br><br>
+                <label for="">MR AZEEM   => M    =>43 => 137 =>NEURO-SURGERY </label><br><br>
+                <label for="">MS ATHIKHA => F    =>61 => 166 =>NEURO-SURGERY </label><br><br>
+                <label for="">MS SOFIYA  => F    =>35 => 225 =>NEURO-SURGERY </label><br><br>
+                <button id="mypt" type="submit">CHECKED</button>
+            </div>
+            <button class="btn" id="MyButton">ADD STAFF</button>
+            <div id="myform" style="display: none;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="gender">Gender:</label>
+                Male<input type="radio" id="gender" name="gender" required>
+                Female <input type="radio" id="gender" name="gender">
+                Other<input type="radio" id="gender" name="gender"><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" required><br><br>
+                <label for="email">email:</label>
+                <input type="email" id="email" name="email" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="integer" id="phone" name="phone" required><br><br>
+                <label for="date">Date of joining:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                <label for="appointment in ">STREAM:</label>
+                <select name="appointment" id="appointment in">
+                    <option value="ortho">Orthonolygy</option>
+                    <option value="neuro">Neurology</option>
+                    <option value="ent">ENT</option>
+                    <option value="geneneral">Gneral</option>
+                </select><br><br>
+                <label for="branch">Select branch</label>
+                <select name="branch" id="branch">
+                    <option value="hyd">Care Hyd</option>
+                    <option value="nml">Care Nampally</option>
+                    <option value="drs">Care Darussalam</option>
+                    <option value="chr">Care Dharminar</option>
+                    <option value="banjara">Care Banjarahills</option>
+
+
+                </select><br><br>
+                <button id="SubmitBtn" type="submit">Submit</button>
+                <label for="reset">Reset:</label>
+                <input type="reset" name="reset" id="reset">
+            </div>
+            <button class="btn" id="myButton">ADD PATIENT</button>
+            <div id="myForm" style="display: none;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="gender">Gender:</label>
+                Male<input type="radio" id="gender" name="gender" required>
+                Female <input type="radio" id="gender" name="gender">
+                Other<input type="radio" id="gender" name="gender"><br><br>
+
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age" required><br><br>
+                <label for="bldgrp">BLD group:</label>
+                <input type="text" id="bldgrp" name="bldgrp" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="integer" id="phone" name="phone" required><br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                <label for="appointment in ">Admit for:</label>
+                <select name="appointment" id="appointment in">
+                    <option value="ortho">Orthonolygy</option>
+                    <option value="neuro">Neurology</option>
+                    <option value="ent">ENT</option>
+                    <option value="geneneral">Gneral</option>
+                </select><br><br>
+                <label for="branch">Select branch</label>
+                <select name="branch" id="branch">
+                    <option value="hyd">Care Hyd</option>
+                    <option value="nml">Care Nampally</option>
+                    <option value="drs">Care Darussalam</option>
+                    <option value="chr">Care Dharminar</option>
+                    <option value="banjara">Care Banjarahills</option>
+
+
+                </select><br><br>
+                <button id="submitbtn" type="submit">Submit</button>
+                <label for="reset">Reset:</label>
+                <input type="reset" name="reset" id="reset">
+            </div>
+            <button class="cancel" id="mybutton">DISCHARGE PATIENT</button>
+            <div id="MyForm" style="display: none;">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required><br><br>
+                <label for="gender">Gender:</label>
+                Male<input type="radio" id="gender" name="gender" required>
+                Female <input type="radio" id="gender" name="gender">
+                Other<input type="radio" id="gender" name="gender"><br><br>
+
+                <label for="age">age:</label>
+                <input type="number" name="age" id="age" required><br><br>
+                <label for="email">ID:</label>
+                <input type="text" id="email" name="id" required><br><br>
+                <label for="phone">Phone:</label>
+                <input type="integer" id="phone" name="phone" required><br><br>
+                <label for="date">Date:</label>
+                <input type="date" id="date" name="date" required><br><br>
+                <label for="payment">BILLPAY:</label>
+                YES<input type="radio" name="payment" id="payment" required>
+                NO<input type="radio" name="payment" id="payment"><br><br>
+                <label for="reason">PatientBehaviour:</label>
+                <textarea name="reason" id="reason" cols="30" rows="10"></textarea><br><br>
+                <button id="Submitbtn" type="submit">Submit</button>
+            </div>
+            <button id="log"> LOG OUT</button>
+            <div id="LOG" style="display:none;">
+                <button id="logout" type="submit">LOG OUT</button>
+            </div>
+        </div>
+    </nav>
+    <script src="viewstf.js"></script>
+    <script src="viewptnt.js"></script>
+    <script src="adstf.js"></script>
+    <script src="adptnt.js"></script>
+    <script src="dscrgpt.js"></script>
+    <script src="logout.js"></script>
+</body>
+
+</html>
